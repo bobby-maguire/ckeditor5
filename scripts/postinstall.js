@@ -16,7 +16,6 @@ require( 'husky' ).install();
 
 // External repositories.
 const EXTERNAL_DIR_PATH = path.resolve( __dirname, '..', 'external' );
-process.exit( 0 );
 
 // Exit process when "external" directory is not created.
 if ( !fs.existsSync( EXTERNAL_DIR_PATH ) ) {
